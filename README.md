@@ -15,26 +15,20 @@ Una API para gestionar productos.
 
 
 ### 4. **Documentación de los *endpoints***
-Describe cada *endpoint* con su método HTTP, ruta, parámetros, cuerpo de la solicitud y ejemplo de respuesta. Usa bloques de código para mostrar ejemplos claros.
 
-Ejemplo:
-```markdown
-## Endpoints
 
-### Obtener todos los productos
+## Obtener todos los productos
+Muestra la lista de productos y sus características (id, disponible, precio, nombre)
 - **Método:** GET
-- **Ruta:** `/api/productos`
-
-**Ejemplo de solicitud:**
-```http
-GET /api/productos HTTP/1.1
-Host: localhost:5000
+- **Ruta:** `/api/products`
 
 **Respuesta:**
-[
-  { "id": 1, "nombre": "Juan Pérez" },
-  { "id": 2, "nombre": "María López" }
-]
+        {
+            "id": "1fRIhROjQ6Yd7MPaR5EJ",
+            "disponible": false,
+            "precio": 7800,
+            "nombre": "yerba cachamai"
+        }
 
 
 
