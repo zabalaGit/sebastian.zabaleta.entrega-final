@@ -3,8 +3,7 @@ Una API para gestionar productos.
 
 ## Índice
 - [Instalación](#instalación)
-- [Endpoints](#endpoints)
-- [Ejemplos de uso](#ejemplos-de-uso)
+- [Documentación de los endpoints](#endpoints)
 - [Estructura del proyecto](#estructura-del-proyecto)
 - [Licencia](#licencia)
 
