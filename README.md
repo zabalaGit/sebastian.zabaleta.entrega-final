@@ -17,7 +17,7 @@ Una API para gestionar productos.
 ## Documentación de los endpoints
 
 
-** 1. Obtener todos los productos:
+## 1. Obtener todos los productos:
 Muestra la lista de productos y sus características (id, disponible, precio, nombre)
 - **Método:** GET
 - **Ruta:** `/api/products`
@@ -32,7 +32,7 @@ Respuesta:
 }
 ```
 
-** 2. Obtener un producto especifico, se lo pasamos en la ruta:
+## 2. Obtener un producto especifico, se lo pasamos en la ruta:
 Muestra las características de un producto (disponible, precio, nombre), enviando el id del producto
 - **Método:** GET
 - **Ruta:** `/api/products/FCLvXZwCwqC5sfo5zXyD`
@@ -46,7 +46,7 @@ Respuesta:
 }
 ```
 
-** 3. Crear un producto especifico:
+## 3. Crear un producto especifico:
 Crea un producto, enviando los siguientes datos (disponible**, precio, nombre) 
 ** el dato "disponible" es opcional. Si no lo enviamos, el producto se crea como disponible = FALSE
 - **Método:** POST
@@ -69,7 +69,7 @@ Respuesta:
 ```
 
 
-** 4. Eliminar un producto especifico:
+## 4. Eliminar un producto especifico:
 Elimina un producto, enviando el id del producto
 - **Método:** DELETE
 - **Ruta:** `/api/products/FCLvXZwCwqC5sfo5zXyD`
